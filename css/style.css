@@ -119,23 +119,9 @@ section h2 span {
 
 /* SEC02 Gallery
 ------------------------------------------------------------*/
-#sec02{
-	padding: 0 !important;
-}
-
-#sec02 header{
-	display: none;
-}
-
-#gallery li{
-	float: left;
-	width: calc(100%/3);
-	line-height: 0;
-}
-
-#gallery img{
+#sec02 img{
 	width: 100%;
-	height: auto;
+	margin-bottom: 30px;
 }
 
 
@@ -151,7 +137,7 @@ section h2 span {
 ------------------------------------------------------------*/
 .col3 img{
 	display: block;
-	margin: 0 auto 5px;
+	margin: 0;
 }
 
 .col3 li{
@@ -159,7 +145,7 @@ section h2 span {
 }
 
 .col3 .img{
-	padding: 80px 50px;
+	padding: 0px;
 	margin-bottom: 40px;
 	line-height: 0 !important;
 	background: #f6f6f6;
